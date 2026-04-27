@@ -14,8 +14,8 @@ from feature_encoding import build_feature_vector
 from mc_simulation import estimate_win_probability
 
 # ── Config ────────────────────────────────────────────────────────────────────
-N_SAMPLES      = 500   # total game states to generate
-N_SIMULATIONS  = 200    # MC samples per state (higher = less label noise)
+N_SAMPLES      = 50000   # total game states to generate
+N_SIMULATIONS  = 1000    # MC samples per state (higher = less label noise)
 MAX_OPPONENTS  = 8        # randomly sample 1–8 opponents per state
 OUTPUT_PATH    = "poker_dataset.csv"
 RANDOM_SEED    = 42
